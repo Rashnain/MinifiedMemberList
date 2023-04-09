@@ -1,4 +1,10 @@
-/*//META{"name":"MinifiedMemberlist","description":"Minifies the Memberlist in guilds and group chats.","author":"Chloe-ko#6669","version":"2.1"}*//**/
+/**
+ * @name Minified Member List
+ * @author Chloe-ko#6669
+ * @version 2.2
+ * @description Minifies the member list in guilds and group chats.
+ * @source https://github.com/Chloe-ko/Discord-Stuff/
+*/
 
 @import url('https://cfcdn.nyu.moe/minifiedMemberlist.source.css');
 
