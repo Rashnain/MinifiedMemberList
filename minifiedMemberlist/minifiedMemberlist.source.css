@@ -1,9 +1,7 @@
 .content-1jQy2l .membersWrap-3NUR2t {
         min-width: unset;
         width: 50px;
-        z-index: 1000;
         justify-content: right;
-        flex-basis: unset;
 }
 .membersWrap-3NUR2t .members-3WRCEx {
         transition: transform var(--hover-animation-speed);
@@ -16,16 +14,13 @@
         content: "";
         width: 30px;
         height: 2px;
-        background: unset;
         border-radius: 1px;
         background-color: var(--seperator-color);
         position: absolute;
         left: -36px;
         top: 29px;
-        margin-left: 0px;
 }
 .membersWrap-3NUR2t .members-3WRCEx .member-2gU6Ar {
-        background-color: unset;
         margin-left: 0px;
         transition: margin-left var(--hover-animation-speed);
 }
@@ -36,7 +31,6 @@
         transform: translateX(0);
 }
 .membersWrap-3NUR2t .membersGroup-2eiWxl {
-        cursor: default;
         transform: translateX(45px);
         transition: transform var(--hover-animation-speed);
         overflow: visible;
