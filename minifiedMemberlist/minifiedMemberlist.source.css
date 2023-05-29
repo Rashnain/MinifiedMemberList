@@ -1,6 +1,7 @@
 .content-1jQy2l .membersWrap-3NUR2t {
         min-width: unset;
         width: 50px;
+        z-index: 1000;
         justify-content: right;
 }
 .membersWrap-3NUR2t .members-3WRCEx {
