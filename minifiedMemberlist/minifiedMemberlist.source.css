@@ -1,38 +1,45 @@
 .content-1jQy2l .membersWrap-3NUR2t {
-        min-width: unset;
-        width: 50px;
-        z-index: 1000;
-        justify-content: right;
+	min-width: unset;
+	width: 50px;
+	z-index: 1000;
+	justify-content: right;
 }
+
 .membersWrap-3NUR2t .members-3WRCEx {
-        transition: transform var(--hover-animation-speed);
-        transform: translateX(190px);
+	transition: transform var(--hover-animation-speed);
+	transform: translateX(190px);
 }
+
 .membersWrap-3NUR2t:hover .members-3WRCEx {
-        transform: translateX(0);
+	transform: translateX(0);
 }
+
 .membersWrap-3NUR2t .membersGroup-2eiWxl::after {
-        content: "";
-        width: 30px;
-        height: 2px;
-        border-radius: 1px;
-        background-color: var(--seperator-color);
-        position: absolute;
-        left: -36px;
-        top: 29px;
+	content: "";
+	width: 30px;
+	height: 2px;
+	border-radius: 1px;
+	background-color: var(--seperator-color);
+	position: absolute;
+	left: -36px;
+	top: 29px;
 }
+
 .membersWrap-3NUR2t .members-3WRCEx .member-2gU6Ar {
-        margin-left: 0px;
-        transition: margin-left var(--hover-animation-speed);
+	margin-left: 0px;
+	transition: margin-left var(--hover-animation-speed);
 }
+
 .membersWrap-3NUR2t:hover .members-3WRCEx .member-2gU6Ar {
-        margin-left: 8px;
+	margin-left: 8px;
 }
+
 .membersWrap-3NUR2t:hover .membersGroup-2eiWxl {
-        transform: translateX(0);
+	transform: translateX(0);
 }
+
 .membersWrap-3NUR2t .membersGroup-2eiWxl {
-        transform: translateX(45px);
-        transition: transform var(--hover-animation-speed);
-        overflow: visible;
+	transform: translateX(45px);
+	transition: transform var(--hover-animation-speed);
+	overflow: visible;
 }
