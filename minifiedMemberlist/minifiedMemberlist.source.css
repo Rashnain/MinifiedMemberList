@@ -1,26 +1,26 @@
-.membersWrap__90226, .container_b2ce9c {
+.membersWrap__5ca6b, .container_f79ab4 {
 	min-width: unset;
 	width: 50px;
 	z-index: 1000;
 	justify-content: right;
 }
 
-.membersWrap__90226 .members__9f47b {
+.membersWrap__5ca6b .members__573eb {
 	transition: transform var(--hover-animation-speed);
 	transform: translateX(190px);
 }
 
-.membersWrap__90226:hover .members__9f47b {
+.membersWrap__5ca6b:hover .members__573eb {
 	transform: translateX(0);
 }
 
-.membersWrap__90226 .membersGroup__85843 {
+.membersWrap__5ca6b .membersGroup_cad095 {
 	transform: translateX(45px);
 	transition: transform var(--hover-animation-speed);
 	overflow: visible;
 }
 
-.membersWrap__90226 .membersGroup__85843::after {
+.membersWrap__5ca6b .membersGroup_cad095::after {
 	content: "";
 	width: 30px;
 	height: 2px;
@@ -31,15 +31,15 @@
 	top: 29px;
 }
 
-.membersWrap__90226:hover .membersGroup__85843 {
+.membersWrap__5ca6b:hover .membersGroup_cad095 {
 	transform: translateX(0);
 }
 
-.membersWrap__90226 .members__9f47b .member_aa4760 {
+.membersWrap__5ca6b .members__573eb .member_aa4760 {
 	margin-left: 0px;
 	transition: margin-left var(--hover-animation-speed);
 }
 
-.membersWrap__90226:hover .members__9f47b .member_aa4760 {
+.membersWrap__5ca6b:hover .members__573eb .member_aa4760 {
 	margin-left: 8px;
 }
