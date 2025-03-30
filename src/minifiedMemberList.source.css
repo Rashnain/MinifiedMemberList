@@ -1,6 +1,7 @@
 /* Push the member list to the right */
 .membersWrap_c8ffbb, .container_c8ffbb {
 	width: 45px;
+	z-index: 1000;
 }
 /* Translate it to the left when hovering */
 .membersWrap_c8ffbb:hover .members_c8ffbb {
