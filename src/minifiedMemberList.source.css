@@ -1,45 +1,48 @@
+/* Push the member list to the right */
 .membersWrap_c8ffbb, .container_c8ffbb {
-	min-width: unset;
-	width: 50px;
-	z-index: 1000;
-	justify-content: right;
+	width: 45px;
 }
-
+/* Translate it to the left when hovering */
+.membersWrap_c8ffbb:hover .members_c8ffbb {
+	transform: translateX(-200px);
+}
 .membersWrap_c8ffbb .members_c8ffbb {
 	transition: transform var(--hover-animation-speed);
-	transform: translateX(190px);
 }
 
-.membersWrap_c8ffbb:hover .members_c8ffbb {
-	transform: translateX(0);
-}
-
+/* Push the role names to the right */
 .membersWrap_c8ffbb .membersGroup_c8ffbb {
 	transform: translateX(45px);
 	transition: transform var(--hover-animation-speed);
-	overflow: visible;
 }
-
+/* Display a - next to the role names */
 .membersWrap_c8ffbb .membersGroup_c8ffbb::after {
 	content: "";
-	width: 30px;
+	width: 25px;
 	height: 2px;
-	border-radius: 1px;
 	background-color: var(--seperator-color);
 	position: absolute;
-	left: -36px;
-	top: 29px;
+	left: -35px;
+	top: 24px;
 }
-
+/* Transition between the - and the role names when hovering */
 .membersWrap_c8ffbb:hover .membersGroup_c8ffbb {
 	transform: translateX(0);
 }
 
+/* Reduce right margin/padding of the member list */
 .membersWrap_c8ffbb .members_c8ffbb .member__5d473 {
-	margin-left: 0px;
+	margin-left: 0;
 	transition: margin-left var(--hover-animation-speed);
 }
-
+.membersWrap_c8ffbb .member__5d473 .childContainer__91a9d {
+	padding: 0;
+	transition: padding var(--hover-animation-speed);
+}
+/* Restore it when hovering */
 .membersWrap_c8ffbb:hover .members_c8ffbb .member__5d473 {
 	margin-left: 8px;
+}
+.membersWrap_c8ffbb:hover .member__5d473 .childContainer__91a9d {
+	padding: 0 8px 0 8px;
 }
