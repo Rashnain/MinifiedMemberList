@@ -5,7 +5,7 @@
 }
 /* Translate it to the left when hovering */
 .membersWrap_c8ffbb:hover .members_c8ffbb {
-	transform: translateX(-200px);
+	transform: translateX(-211px);
 }
 .membersWrap_c8ffbb .members_c8ffbb {
 	transition: transform var(--hover-animation-speed);
